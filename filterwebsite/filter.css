@@ -21,4 +21,76 @@
     box-sizing: border-box;
     padding: 20px;
     gap: 20px;
+    container: 10px;
+
+}
+#items-1{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#items-2{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#items-3{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#Electronic-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+#gardening-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Gadgets-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

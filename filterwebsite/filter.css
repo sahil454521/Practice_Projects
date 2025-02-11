@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #filters{
     display: none;
     position: fixed;
@@ -103,4 +104,101 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+=======
+#filter{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Items{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 20px;
+    container: 10px;
+
+}
+#items-1{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#items-2{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#items-3{
+    width: 200px;
+    container: 10px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    background-color: rgb(227, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#Electronic-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+#gardening-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Gadgets-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(162, 140, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+>>>>>>> 94f7588649f3947dae8e3c1d563e0c3b9662c5e4
 }

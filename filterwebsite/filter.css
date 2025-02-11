@@ -1,4 +1,4 @@
-#filter{
+#filters{
     display: none;
     position: fixed;
     z-index: 1;
@@ -10,6 +10,7 @@
     background-color: rgba(0,0,0,0.4);
     padding: 20px;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 .Items{
     text-align: center;
@@ -21,22 +22,31 @@
     box-sizing: border-box;
     padding: 20px;
     gap: 20px;
-    container: 10px;
+}
+.Items .item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.Items .item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 #items-1{
     width: 200px;
-    container: 10px;
-    border-color: rgb(0, 0, 0);
-    height: 150px;
-    background-color: rgb(227, 216, 216);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#items-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 #items-2{
     width: 200px;
